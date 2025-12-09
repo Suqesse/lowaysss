@@ -94,11 +94,11 @@
       "image": "img/twitch_buttons_cover.png",
       "variant": "strip",
       "gallery": [
-        "img/tw_btn_about.png",
-        "img/tw_btn_donate.png",
-        "img/tw_btn_rules.png",
-        "img/tw_btn_socials.png",
-        "img/tw_btn_shop.png"
+        "img/button1.png",
+        "img/button2.png",
+        "img/button3.png",
+        "img/button4.png",
+        "img/button5.png"
       ]
     },
     {
