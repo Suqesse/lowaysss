@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearSpan = document.getElementById("year");
   if (yearSpan) yearSpan.textContent = new Date().getFullYear();
 
-  fetch("content.json")
+    fetch("content.json?v=" + Date.now())
     .then((r) => r.json())
     .then((data) => {
       applyHero(data.hero);
