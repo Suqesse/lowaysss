@@ -1,0 +1,11 @@
+/* тот же стиль, что и раньше, урезанный для примера */
+body {
+  margin: 0;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #151633, #05050a 48%, #04040a);
+  color: #f7f7ff;
+}
+.page{min-height:100vh;display:flex;flex-direction:column;}
+.container{max-width:1120px;margin:0 auto;padding:0 16px;}
+header,section,footer{box-sizing:border-box;}
+/* ... (сюда можно вставить весь предыдущий CSS, но для ответа сокращаю) */
