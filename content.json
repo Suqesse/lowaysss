@@ -56,7 +56,7 @@
       "tags": "YouTube • channel art • pack",
       "category": "yt-banners",
       "image": "img/Logos/youtube.png",
-      "variant": "",
+      "variant": "square",
       "gallery": [
         "img/BannerYT (1).png",
         "img/BannerYT (2).png",
@@ -68,7 +68,7 @@
       "tags": "Twitch • channel art • pack",
       "category": "twitch-banners",
       "image": "img/Logos/twitch.png",
-      "variant": "",
+      "variant": "square",
       "gallery": [
         "img/BannerTTW (1).png",
         "img/BannerTTW (2).png",
@@ -80,7 +80,7 @@
       "tags": "YouTube • thumbnails • pack",
       "category": "yt-previews",
       "image": "img/Logos/youtube.png",
-      "variant": "",
+      "variant": "square",
       "gallery": [
         "img/Preview (1).png",
         "img/Preview (2).png",
@@ -94,7 +94,7 @@
       "tags": "Twitch • panels • about / donate / rules",
       "category": "twitch-buttons",
       "image": "img/Logos/twitch.png",
-      "variant": "strip",
+      "variant": "square",
       "gallery": [
         "img/Button (1).png",
         "img/Button (2).png",
