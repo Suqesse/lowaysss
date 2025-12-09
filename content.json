@@ -1,7 +1,7 @@
 {
   "hero": {
     "overtitle": "Графический & стрим-дизайн",
-    "title": "Lowaysss — оформление, которое\nзапоминается с первого взгляда",
+    "title": "Lowaysss - оформление, которое\nзапоминается с первого взгляда",
     "text": "Баннеры для Twitch и YouTube, превью, кнопки, аватарки, оформление сообществ и каналов.",
     "btn_primary": "Смотреть работы",
     "btn_secondary": "Обсудить проект",
@@ -51,16 +51,19 @@
     ]
   },
   "works": [
+    
     {
-      "title": "YouTube Banners pack",
-      "tags": "YouTube • channel art • pack",
-      "category": "yt-banners",
-      "image": "img/Logos/youtube.png",
+      "title": "Twitch Buttons set",
+      "tags": "Twitch • panels • about / donate / rules",
+      "category": "twitch-buttons",
+      "image": "img/Logos/twitch.png",
       "variant": "square",
       "gallery": [
-        "img/BannerYT (1).png",
-        "img/BannerYT (2).png",
-        "img/BannerYT (3).png"
+        "img/Button (1).png",
+        "img/Button (2).png",
+        "img/Button (3).png",
+        "img/Button (4).png",
+        "img/Button (5).png"
       ]
     },
     {
@@ -76,6 +79,18 @@
       ]
     },
     {
+      "title": "YouTube Banners pack",
+      "tags": "YouTube • channel art • pack",
+      "category": "yt-banners",
+      "image": "img/Logos/youtube.png",
+      "variant": "square",
+      "gallery": [
+        "img/BannerYT (1).png",
+        "img/BannerYT (2).png",
+        "img/BannerYT (3).png"
+      ]
+    },
+    {
       "title": "YouTube Previews pack",
       "tags": "YouTube • thumbnails • pack",
       "category": "yt-previews",
@@ -87,20 +102,6 @@
         "img/Preview (3).png",
         "img/Preview (4).png",
         "img/Preview (5).png"
-      ]
-    },
-    {
-      "title": "Twitch Buttons set",
-      "tags": "Twitch • panels • about / donate / rules",
-      "category": "twitch-buttons",
-      "image": "img/Logos/twitch.png",
-      "variant": "square",
-      "gallery": [
-        "img/Button (1).png",
-        "img/Button (2).png",
-        "img/Button (3).png",
-        "img/Button (4).png",
-        "img/Button (5).png"
       ]
     },
     {
@@ -153,8 +154,8 @@
   ],
   "about": {
     "title": "Обо мне",
-    "subtitle": "Я — Lowaysss, графический дизайнер, который делает оформление под стримы и контент.",
-    "p1": "Моя задача — сделать так, чтобы ваш канал выглядел профессионально, но оставался живым.",
+    "subtitle": "Я - Lowaysss, графический дизайнер, который делает оформление под стримы и контент.",
+    "p1": "Моя задача - сделать так, чтобы ваш канал выглядел профессионально, но оставался живым.",
     "p2": "Люблю чистый, структурный дизайн с аккуратными акцентами и читаемыми шрифтами.",
     "p3": "Работаю аккуратно с текстом и цветом, чтобы оформление не надоедало даже при ежедневных стримах.",
     "side_title": "Инструменты и формат работы",
@@ -172,6 +173,6 @@
     "nick": "@Lowaysss",
     "telegram": "t.me/P0zher",
     "email": "suqesse@gmail.com",
-    "hint": "Можно сразу скинуть ссылки на ваши каналы, референсы и примерный бюджет — так я быстрее предложу вариант по оформлению."
+    "hint": "Можно сразу скинуть ссылки на ваши каналы, референсы и примерный бюджет - так я быстрее предложу вариант по оформлению."
   }
 }
