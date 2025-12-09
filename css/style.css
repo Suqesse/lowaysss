@@ -450,6 +450,27 @@ body {
     background var(--transition-med);
 }
 
+.lightbox-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.lightbox img {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    object-fit: contain;
+}
+
+.work-card img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
 .work-card__image {
   position: relative;
   aspect-ratio: 16 / 9;

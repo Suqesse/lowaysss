@@ -79,7 +79,7 @@
       "title": "YouTube Previews pack",
       "tags": "YouTube • thumbnails • pack",
       "category": "yt-previews",
-      "image": "img/Logos/youtube_prev.png",
+      "image": "img/Logos/youtube.png",
       "variant": "",
       "gallery": [
         "img/Preview (1).png",
@@ -93,7 +93,7 @@
       "title": "Twitch Buttons set",
       "tags": "Twitch • panels • about / donate / rules",
       "category": "twitch-buttons",
-      "image": "img/Logos/buttons.png",
+      "image": "img/Logos/twitch.png",
       "variant": "strip",
       "gallery": [
         "img/Button (1).png",
@@ -107,7 +107,7 @@
       "title": "Avatars pack",
       "tags": "VK / Twitch / YouTube • avatars",
       "category": "avatars",
-      "image": "img/Logos/avatars.png",
+      "image": "img/Logos/Avatars.png",
       "variant": "square",
       "gallery": [
         "img/Avatar (1).png",
