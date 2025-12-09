@@ -1,4 +1,3 @@
-
 :root {
   --bg-main: #050511;
   --bg-elevated: rgba(18, 18, 40, 0.96);
@@ -48,8 +47,6 @@ body {
   flex-direction: column;
 }
 
-/* containers */
-
 .container {
   width: 100%;
   max-width: 1120px;
@@ -57,7 +54,7 @@ body {
   padding: 0 16px;
 }
 
-/* header */
+/* HEADER */
 
 .header {
   position: sticky;
@@ -80,7 +77,7 @@ body {
   padding: 14px 0;
 }
 
-/* logo */
+/* LOGO */
 
 .logo {
   display: inline-flex;
@@ -113,7 +110,7 @@ body {
   color: var(--text-soft);
 }
 
-/* nav */
+/* NAV */
 
 .nav {
   position: relative;
@@ -157,7 +154,7 @@ body {
   width: 100%;
 }
 
-/* burger */
+/* BURGER */
 
 .nav__toggle {
   display: none;
@@ -176,7 +173,7 @@ body {
   background: #fefefe;
 }
 
-/* hero */
+/* HERO */
 
 .hero {
   padding: 40px 0 32px;
@@ -232,7 +229,7 @@ body {
   color: var(--accent-strong);
 }
 
-/* hero visual */
+/* HERO VISUAL */
 
 .hero__visual {
   display: grid;
@@ -291,7 +288,7 @@ body {
   color: var(--text-soft);
 }
 
-/* hero stats */
+/* HERO STATS */
 
 .hero__stats {
   display: grid;
@@ -319,7 +316,7 @@ body {
   color: var(--text-soft);
 }
 
-/* buttons */
+/* BUTTONS */
 
 .btn {
   display: inline-flex;
@@ -370,7 +367,7 @@ body {
   width: 100%;
 }
 
-/* sections */
+/* SECTIONS */
 
 .section {
   padding: 40px 0 32px;
@@ -395,7 +392,7 @@ body {
   color: var(--text-soft);
 }
 
-/* tabs */
+/* TABS */
 
 .tabs {
   display: flex;
@@ -431,7 +428,7 @@ body {
   box-shadow: var(--shadow-chip);
 }
 
-/* grids */
+/* GRIDS */
 
 .grid {
   display: grid;
@@ -446,7 +443,7 @@ body {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-/* work cards */
+/* WORK CARDS */
 
 .work-card {
   display: flex;
@@ -509,7 +506,7 @@ body {
   transform: scale(1.04);
 }
 
-/* services */
+/* SERVICES */
 
 .service {
   padding: 14px 14px 13px;
@@ -537,7 +534,7 @@ body {
   margin-top: 3px;
 }
 
-/* about */
+/* ABOUT */
 
 .about {
   display: grid;
@@ -578,7 +575,7 @@ body {
   color: var(--text-soft);
 }
 
-/* contact */
+/* CONTACT */
 
 .contact {
   display: grid;
@@ -614,7 +611,7 @@ body {
   font-size: 14px;
 }
 
-/* form */
+/* FORM */
 
 .form {
   display: grid;
@@ -660,7 +657,7 @@ body {
   color: var(--text-soft);
 }
 
-/* footer */
+/* FOOTER */
 
 .footer {
   padding: 18px 0 20px;
@@ -688,7 +685,7 @@ body {
   text-decoration: none;
 }
 
-/* reveal animation */
+/* REVEAL */
 
 .reveal {
   opacity: 0;
@@ -703,7 +700,7 @@ body {
   transform: translateY(0);
 }
 
-/* responsive */
+/* RESPONSIVE */
 
 @media (max-width: 900px) {
   .hero__inner {
