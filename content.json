@@ -25,104 +25,84 @@
       }
     ]
   },
-  "works_block": {
-    "subtitle": "Примеры оформления под Twitch, YouTube и соцсети. Выберите нужную категорию.",
-    "categories": [
-      {
-        "id": "all",
-        "label": "Все"
-      },
-      {
-        "id": "twitch-banners",
-        "label": "Twitch banners"
-      },
-      {
-        "id": "yt-banners",
-        "label": "YouTube banners"
-      },
-      {
-        "id": "yt-previews",
-        "label": "YouTube previews"
-      },
-      {
-        "id": "twitch-buttons",
-        "label": "Twitch buttons"
-      },
-      {
-        "id": "vk",
-        "label": "VK / соцсети"
-      },
-      {
-        "id": "telegram",
-        "label": "Telegram PFP"
-      }
+"works_block": {
+  "subtitle": "Примеры оформления под Twitch, YouTube и соцсети. Выберите нужную категорию.",
+  "categories": [
+    { "id": "yt-banners",      "label": "YouTube banners" },
+    { "id": "twitch-banners",  "label": "Twitch banners" },
+    { "id": "yt-previews",     "label": "YouTube previews" },
+    { "id": "twitch-buttons",  "label": "Twitch buttons" },
+    { "id": "avatars",         "label": "Avatars" }
+  ]
+},
+"works": [
+  {
+    "title": "YouTube Banners pack",
+    "tags": "YouTube • channel art • pack",
+    "category": "yt-banners",
+    "image": "img/Logos/youtube.png",
+    "variant": "",
+    "gallery": [
+      "img/BannerYT (1).png",
+      "img/BannerYT (2).png",
+      "img/BannerYT (3).png"
     ]
   },
-  "works": [
-    {
-      "title": "Twitch Banner #01",
-      "tags": "Twitch • gaming • gradient",
-      "category": "twitch-banners",
-      "image": "https://via.placeholder.com/900x450?text=Twitch+Banner+01",
-      "variant": ""
-    },
-    {
-      "title": "Twitch Banner #02",
-      "tags": "Twitch • neon • dark",
-      "category": "twitch-banners",
-      "image": "https://via.placeholder.com/900x450?text=Twitch+Banner+02",
-      "variant": ""
-    },
-    {
-      "title": "YouTube Banner #01",
-      "tags": "YouTube • channel art",
-      "category": "yt-banners",
-      "image": "https://via.placeholder.com/900x450?text=YouTube+Banner+01",
-      "variant": ""
-    },
-    {
-      "title": "YouTube Preview #01",
-      "tags": "YouTube • thumbnail • highlight",
-      "category": "yt-previews",
-      "image": "https://via.placeholder.com/900x450?text=YouTube+Preview+01",
-      "variant": "strip",
-      "gallery": [
-        "img/button1.png",
-        "img/button2.png",
-        "img/button3.png",
-        "img/button4.png",
-        "img/button5.png"
-      ]
-    },
-    {
-      "title": "Twitch Buttons Set",
-      "tags": "Twitch • panels • about / donate / rules",
-      "category": "twitch-buttons",
-      "image": "img/twitch.jpg",
-      "variant": "strip",
-      "gallery": [
-        "img/button1.png",
-        "img/button2.png",
-        "img/button3.png",
-        "img/button4.png",
-        "img/button5.png"
-      ]
-    },
-    {
-      "title": "VK Pack",
-      "tags": "VK • avatar • header",
-      "category": "vk",
-      "image": "https://via.placeholder.com/600x600?text=VK+Avatar",
-      "variant": "strip",
-      "gallery": [
-        "img/avatar1.png",
-        "img/avatar2.png",
-        "img/avatar3.png",
-        "img/avatar4.png",
-        "img/avatar5.png"
-      ]
-    }
-  ],
+  {
+    "title": "Twitch Banners pack",
+    "tags": "Twitch • channel art • pack",
+    "category": "twitch-banners",
+    "image": "img/Logos/twitch.png",
+    "variant": "",
+    "gallery": [
+      "img/BannerTTW (1).png",
+      "img/BannerTTW (2).png",
+      "img/BannerTTW (3).png"
+    ]
+  },
+  {
+    "title": "YouTube Previews pack",
+    "tags": "YouTube • thumbnails • pack",
+    "category": "yt-previews",
+    "image": "img/Logos/youtube_prev.png",
+    "variant": "",
+    "gallery": [
+      "img/Preview (1).png",
+      "img/Preview (2).png",
+      "img/Preview (3).png",
+      "img/Preview (4).png",
+      "img/Preview (5).png"
+    ]
+  },
+  {
+    "title": "Twitch Buttons set",
+    "tags": "Twitch • panels • about / donate / rules",
+    "category": "twitch-buttons",
+    "image": "img/Logos/buttons.png",
+    "variant": "strip",
+    "gallery": [
+      "img/Button (1).png",
+      "img/Button (2).png",
+      "img/Button (3).png",
+      "img/Button (4).png",
+      "img/Button (5).png"
+    ]
+  },
+  {
+    "title": "Avatars pack",
+    "tags": "VK / Twitch / YouTube • avatars",
+    "category": "avatars",
+    "image": "img/Logos/avatars.png",
+    "variant": "square",
+    "gallery": [
+      "img/Avatar (1).png",
+      "img/Avatar (2).png",
+      "img/Avatar (3).png",
+      "img/Avatar (4).png",
+      "img/Avatar (5).png"
+    ]
+  }
+]
   "services_block": {
     "title": "Что я делаю",
     "subtitle": "Помогаю стримерам и контент-мейкерам собрать визуальный стиль под канал."
