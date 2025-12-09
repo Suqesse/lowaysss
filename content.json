@@ -51,6 +51,10 @@
       {
         "id": "vk",
         "label": "VK / соцсети"
+      },
+      {
+        "id": "telegram",
+        "label": "Telegram PFP"
       }
     ]
   },
@@ -148,10 +152,10 @@
   },
   "contacts": {
     "title": "Контакты",
-    "subtitle": "Лучше всего писать в Telegram или на почту.",
+    "subtitle": "Лучше всего писать в Telegram.",
     "nick": "@Lowaysss",
-    "telegram": "t.me/your_telegram_here",
-    "email": "youremail@example.com",
+    "telegram": "t.me/@P0zher",
+    "email": "suqesse@gmail.com",
     "hint": "Можно сразу скинуть ссылки на ваши каналы и примеры оформления, которое нравится."
   }
 }
