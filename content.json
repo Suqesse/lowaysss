@@ -25,39 +25,30 @@
       }
     ]
   },
-  "works_block": {
-    "subtitle": "Примеры оформления под Twitch, YouTube и соцсети. Выберите нужную категорию.",
-    "categories": [
-      {
-        "id": "all",
-        "label": "Все"
-      },
-      {
-        "id": "twitch-banners",
-        "label": "Twitch banners"
-      },
-      {
-        "id": "yt-banners",
-        "label": "YouTube banners"
-      },
-      {
-        "id": "yt-previews",
-        "label": "YouTube previews"
-      },
-      {
-        "id": "twitch-buttons",
-        "label": "Twitch buttons"
-      },
-      {
-        "id": "vk",
-        "label": "VK / соцсети"
-      },
-      {
-        "id": "telegram",
-        "label": "Telegram PFP"
-      }
+"works_block": {
+  "subtitle": "Примеры оформления под Twitch, YouTube и соцсети. Выберите нужную категорию.",
+  "categories": [
+    { "id": "yt-banners",      "label": "YouTube banners" },
+    { "id": "twitch-banners",  "label": "Twitch banners" },
+    { "id": "yt-previews",     "label": "YouTube previews" },
+    { "id": "twitch-buttons",  "label": "Twitch buttons" },
+    { "id": "avatars",         "label": "Avatars" }
+  ]
+},
+"works": [
+  {
+    "title": "YouTube Banners pack",
+    "tags": "YouTube • channel art • pack",
+    "category": "yt-banners",
+    "image": "img/Logos/youtube.png",
+    "variant": "",
+    "gallery": [
+      "img/BannerYT (1).png",
+      "img/BannerYT (2).png",
+      "img/BannerYT (3).png"
     ]
   },
+<<<<<<< HEAD
   "works": [
     {
       "title": "Twitch Banner #01",
@@ -123,6 +114,63 @@
       ]
     }
   ],
+=======
+  {
+    "title": "Twitch Banners pack",
+    "tags": "Twitch • channel art • pack",
+    "category": "twitch-banners",
+    "image": "img/Logos/twitch.png",
+    "variant": "",
+    "gallery": [
+      "img/BannerTTW (1).png",
+      "img/BannerTTW (2).png",
+      "img/BannerTTW (3).png"
+    ]
+  },
+  {
+    "title": "YouTube Previews pack",
+    "tags": "YouTube • thumbnails • pack",
+    "category": "yt-previews",
+    "image": "img/Logos/youtube_prev.png",
+    "variant": "",
+    "gallery": [
+      "img/Preview (1).png",
+      "img/Preview (2).png",
+      "img/Preview (3).png",
+      "img/Preview (4).png",
+      "img/Preview (5).png"
+    ]
+  },
+  {
+    "title": "Twitch Buttons set",
+    "tags": "Twitch • panels • about / donate / rules",
+    "category": "twitch-buttons",
+    "image": "img/Logos/buttons.png",
+    "variant": "strip",
+    "gallery": [
+      "img/Button (1).png",
+      "img/Button (2).png",
+      "img/Button (3).png",
+      "img/Button (4).png",
+      "img/Button (5).png"
+    ]
+  },
+  {
+    "title": "Avatars pack",
+    "tags": "VK / Twitch / YouTube • avatars",
+    "category": "avatars",
+    "image": "img/Logos/avatars.png",
+    "variant": "square",
+    "gallery": [
+      "img/Avatar (1).png",
+      "img/Avatar (2).png",
+      "img/Avatar (3).png",
+      "img/Avatar (4).png",
+      "img/Avatar (5).png"
+    ]
+  }
+]
+>>>>>>> 6beefb90fbaff59bf9a6a94b421d86f2c767471b
   "services_block": {
     "title": "Что я делаю",
     "subtitle": "Помогаю стримерам и контент-мейкерам собрать визуальный стиль под канал."
