@@ -85,13 +85,20 @@
       "tags": "YouTube • thumbnail • highlight",
       "category": "yt-previews",
       "image": "https://via.placeholder.com/900x450?text=YouTube+Preview+01",
-      "variant": ""
+      "variant": "strip",
+      "gallery": [
+        "img/button1.png",
+        "img/button2.png",
+        "img/button3.png",
+        "img/button4.png",
+        "img/button5.png"
+      ]
     },
     {
       "title": "Twitch Buttons Set",
       "tags": "Twitch • panels • about / donate / rules",
       "category": "twitch-buttons",
-      "image": "img/twitch_buttons_cover.png",
+      "image": "img/twitch.jpg",
       "variant": "strip",
       "gallery": [
         "img/button1.png",
@@ -106,7 +113,14 @@
       "tags": "VK • avatar • header",
       "category": "vk",
       "image": "https://via.placeholder.com/600x600?text=VK+Avatar",
-      "variant": "square"
+      "variant": "strip",
+      "gallery": [
+        "img/avatar1.png",
+        "img/avatar2.png",
+        "img/avatar3.png",
+        "img/avatar4.png",
+        "img/avatar5.png"
+      ]
     }
   ],
   "services_block": {
