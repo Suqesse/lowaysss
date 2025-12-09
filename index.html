@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lowaysss – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Портфолио графического дизайнера Lowaysss: баннеры для Twitch и YouTube, превью, кнопки, оформление для соцсетей." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="page">
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <div class="logo">
+          <span class="logo__mark"></span>
+          <span class="logo__text">Lowaysss</span>
+          <span class="logo__tag">design</span>
+        </div>
+
+        <nav class="nav" aria-label="Главное меню">
+          <button class="nav__toggle" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav__list">
+            <li><a href="#works">Работы</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__overtitle" id="hero-overtitle"></p>
+            <h1 class="hero__title" id="hero-title"></h1>
+            <p class="hero__text" id="hero-text"></p>
+            <div class="hero__actions">
+              <a href="#works" class="btn btn--primary" id="hero-btn-primary"></a>
+              <a href="#contact" class="btn btn--ghost" id="hero-btn-secondary"></a>
+            </div>
+            <div class="hero__meta" id="hero-meta"></div>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero-avatar card-elevated">
+              <div class="hero-avatar__circle"></div>
+              <div class="hero-avatar__placeholder">
+                <span>L</span>
+              </div>
+              <p class="hero-avatar__label">@Lowaysss</p>
+              <p class="hero-avatar__desc">stream / game / content design</p>
+            </div>
+
+            <div class="hero__stats" id="hero-stats"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORKS -->
+      <section class="section section--alt" id="works" aria-labelledby="works-title">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" id="works-title">Работы</h2>
+            <p class="section__subtitle" id="works-subtitle"></p>
+          </div>
+
+          <div class="tabs" role="tablist" aria-label="Категории работ" id="works-tabs">
+            <!-- Кнопки табов создаются из JSON -->
+          </div>
+
+          <div class="grid works-grid" aria-live="polite" id="works-grid">
+            <!-- Карточки работ создаются из JSON -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" id="services-title"></h2>
+            <p class="section__subtitle" id="services-subtitle"></p>
+          </div>
+
+          <div class="grid services-grid" id="services-grid">
+            <!-- Карточки услуг из JSON -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section section--alt" id="about" aria-labelledby="about-title">
+        <div class="container about">
+          <div class="about__main">
+            <h2 class="section__title" id="about-title"></h2>
+            <p class="section__subtitle" id="about-subtitle"></p>
+            <p id="about-p1"></p>
+            <p id="about-p2"></p>
+            <p id="about-p3"></p>
+          </div>
+
+          <aside class="about__side card-elevated">
+            <h3 class="about__title" id="about-side-title"></h3>
+            <ul class="about__list" id="about-side-list"></ul>
+            <p class="about__note" id="about-side-note"></p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact">
+          <div class="contact__info">
+            <h2 class="section__title" id="contact-title"></h2>
+            <p class="section__subtitle" id="contact-subtitle"></p>
+
+            <ul class="contact__list">
+              <li><span class="contact__label">Ник:</span> <span class="contact__value" id="contact-nick"></span></li>
+              <li><span class="contact__label">Telegram:</span> <span class="contact__value" id="contact-telegram"></span></li>
+              <li><span class="contact__label">Email:</span> <span class="contact__value" id="contact-email"></span></li>
+            </ul>
+
+            <p class="contact__hint" id="contact-hint"></p>
+          </div>
+
+          <div class="contact__form-wrap card-elevated">
+            <h3 class="contact__form-title">Краткий бриф</h3>
+            <form class="form" id="contact-form">
+              <div class="form__field">
+                <label for="name">Имя или ник</label>
+                <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required />
+              </div>
+              <div class="form__field">
+                <label for="platforms">Платформы</label>
+                <input type="text" id="platforms" name="platforms" placeholder="Twitch, YouTube, VK, Telegram..." />
+              </div>
+              <div class="form__field">
+                <label for="message">Что нужно сделать?</label>
+                <textarea id="message" name="message" rows="4" placeholder="Опишите задачу и желаемые сроки" required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full">Отправить запрос (демо)</button>
+              <p class="form__note">Форма демо: данные никуда не отправляются, просто пример UX.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">© <span id="year"></span> Lowaysss. Все права защищены.</p>
+        <a href="#top" class="footer__top">Наверх ↑</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
